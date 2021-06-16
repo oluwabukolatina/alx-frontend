@@ -1,9 +1,18 @@
 {
+    "env": {
+        "browser": true,
+        "es2021": true
+      },
     "parser":  "@typescript-eslint/parser",
      "extends":  [
+
+       "eslint:recommended",
+       "plugin:prettier/recommended",
+       "prettier",
        "plugin:react/recommended",
-       "plugin:@typescript-eslint/recommended",
-       "plugin:prettier/recommended"
+       "eslint-config-prettier",
+       "plugin:@typescript-eslint/recommended"
+
      ],
      "parserOptions":  {
        "ecmaVersion":  2018,
@@ -11,16 +20,9 @@
      },
      "plugins": ["prettier"],
      "rules": {
-
-    "no-console": "error",
-       "prettier/prettier": [
-         "error",
-         {
-           "singleQuote": true,
-           "trailingComma": "all"
-         }
-       ]
-      
+             "no-console": "error",
+             "prettier/prettier":"error",
+       "@typescript-eslint/explicit-module-boundary-types": "off"
      },
      "settings": {
        "react": {
@@ -30,7 +32,6 @@
      "overrides": [
        {
          "files": ["*.ts", "*.tsx"]
-        
        }
      ]
 }
