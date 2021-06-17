@@ -15,7 +15,7 @@ export const ServiceData = [
   },
   {
     id: 3,
-    name: "Logotype.com.com",
+    name: "Logotype.com",
     description:
       "This is the description for this particular service - logotype",
     promoCode: "8b39b36b2f",
