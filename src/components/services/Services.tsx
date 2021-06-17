@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import useApp from "../../hooks/useApp";
 import Filter from "../Filter";
 import Footer from "../Footer";
@@ -9,7 +9,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Services() {
   const { addToast } = useToasts();
-  const { filtered, filter, onChange } = useApp();
+  const { filtered, filter, onChange, reset } = useApp();
   const copyText = (code: string) => {
     addToast(`Promo code ${code} copied`, {
       appearance: "success",
@@ -47,7 +47,7 @@ export default function Services() {
   return (
     <div className="services">
       <p className="title">Services</p>
-      <Filter onChange={onChange} filter={filter} />
+      <Filter reset={reset} onChange={onChange} filter={filter} />
       {showServices()}
       <hr />
       <Footer />

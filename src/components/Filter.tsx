@@ -2,8 +2,9 @@ import React from "react";
 type PageProps = {
   onChange: any;
   filter: string;
+  reset: any;
 };
-const Filter = ({ onChange, filter }: PageProps) => {
+const Filter = ({ onChange, filter, reset }: PageProps) => {
   return (
     <>
       <p className="filter">Filter</p>
@@ -14,7 +15,9 @@ const Filter = ({ onChange, filter }: PageProps) => {
         className="filter-input"
         type="text"
       />
-      <button className="reset">Reset</button>
+      <button onClick={reset} className="reset">
+        Reset
+      </button>
     </>
   );
 };

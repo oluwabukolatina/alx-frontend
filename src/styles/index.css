@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  /* overflow: hidden; */
 }
 
 .sidebar-container {
@@ -128,6 +127,7 @@ ul {
   width: 12%;
   height: 2.3rem;
   margin-left: 0.4rem;
+  cursor: pointer;
 }
 .promo-code {
   margin-top: 0.7rem;
@@ -159,4 +159,7 @@ hr {
   right: 0px;
   color: #a8a8a8;
   padding-right: 4rem;
+}
+.promo img {
+  cursor: pointer;
 }

@@ -16,6 +16,9 @@ const useApp = () => {
     });
     setFiltered(list);
   };
-  return { filter, onChange, filtered };
+  const reset = () => {
+    setFiltered(services);
+  };
+  return { filter, onChange, filtered, reset };
 };
 export default useApp;
