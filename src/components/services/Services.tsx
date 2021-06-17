@@ -5,9 +5,9 @@ import Footer from "../Footer";
 import Copy from "../../assets/copy.svg";
 
 export default function Services() {
-  const { services } = useApp();
+  const { filtered, filter, onChange } = useApp();
   const showServices = () => {
-    return services.map((service) => {
+    return filtered.map((service) => {
       return (
         <div key={service.id} className="service">
           <div className="service-name-and-description">
@@ -28,10 +28,11 @@ export default function Services() {
       );
     });
   };
+
   return (
     <div className="services">
       <p className="title">Services</p>
-      <Filter />
+      <Filter onChange={onChange} filter={filter} />
       {showServices()}
       <hr />
       <Footer />
