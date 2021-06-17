@@ -1,5 +1,5 @@
 import React from "react";
-import Copy from '../../assets/copy.svg';
+import Copy from "../../assets/copy.svg";
 const Service = () => {
   return (
     <div className="service">
