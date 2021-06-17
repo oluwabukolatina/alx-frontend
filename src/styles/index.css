@@ -55,6 +55,7 @@ ul {
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .service-name-and-description {

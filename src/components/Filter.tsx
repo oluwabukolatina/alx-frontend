@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ChangeEventHandler } from "react";
 type PageProps = {
-  onChange: any;
+  onChange: ChangeEventHandler<HTMLInputElement>;
   filter: string;
-  reset: any;
+  reset: () => void;
 };
 const Filter = ({ onChange, filter, reset }: PageProps) => {
   return (

@@ -5,6 +5,7 @@ export const ServiceData = [
     description:
       "This is the description for this particular service - siteconstructor",
     promoCode: "fb688c5941",
+    activated: false,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const ServiceData = [
     description:
       "This is the description for this particular service - appvision",
     promoCode: "a7ef6060af",
+    activated: false,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const ServiceData = [
     description:
       "This is the description for this particular service - logotype",
     promoCode: "8b39b36b2f",
+    activated: false,
   },
   {
     id: 4,
@@ -26,5 +29,6 @@ export const ServiceData = [
     description:
       "This is the description for this particular service - analytics",
     promoCode: "429983a8b3",
+    activated: false,
   },
 ];
