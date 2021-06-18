@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-> [Technologies](#technologies-used) &middot; [Installations](#installations) &middot; [Acknowledgments](#acknowledgments) &middot; [Author](#author)
+> [Technologies](#technologies-used) &middot; [Installations](#installations) &middot; [Acknowledgments](#acknowledgments) &middot; [Author](#author) &middot; [Frontend Questions](#FrontendQuestions)
 
 ## Technologies Used
 
@@ -37,3 +37,7 @@
 ## Author
 
 - [Tina](https://github.com/oluwabukolatina)
+
+## FrontendQuestions
+
+- [Answer](https://www.notion.so/5088f4588f5a454b9a507eb1c55ad0a4?v=13d3a2a637f84cf7bc707c8900c0a9a3)
